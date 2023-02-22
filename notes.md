@@ -12,3 +12,19 @@ Javascript is a high-level object-oriented, multi-paradigm programming lang
 
 - Showed how to console.log
 - Showed how to connect a javascript file to the index
+
+### 010 Values and Variables
+
+- Value is the smallest unit of information in JS
+  - Can declare a value using a variable
+
+Naming conventions
+
+- camelCase - first word lowercase and following words uppercase
+  - ex:
+    - firstName
+    - secondPersonIsTheBest
+  - Variable cannot start with a number
+  - Variable can only have letter, numbers, underscore, dollar sign
+  - There are also reserved keywords
+  - Variables should be descriptive
