@@ -57,3 +57,5 @@ JS has Dynamic typing
 - Type is determined automatically
 
 JS runs top to bottom
+
+### 013 let, const and var

@@ -2,11 +2,27 @@
 console.log("Assignment File");
 
 // LECTURE: Values and Variables
+
 let country = "United States";
 let continent = "North American";
 let population = "350,000,000";
 
 // LECTURE: Data Types
+
+let isIsland = false;
+let language;
+
+console.log(isIsland);
+console.log(population);
+console.log(country);
+console.log(language);
+// Result
+
+// false
+// assignments.js:17 350,000,000
+// assignments.js:18 United States
+// assignments.js:19 undefined
+ */
 
 // LECTURE: let, const and var
 
@@ -25,4 +41,3 @@ let population = "350,000,000";
 // LECTURE: The switch Statement
 
 // LECTURE: The Conditional (Ternary) Operator
-*/

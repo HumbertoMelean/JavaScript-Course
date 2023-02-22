@@ -46,3 +46,5 @@ console.log(typeof null);
 // BUG*** shows Object as type 
 
 */
+
+// ### 013 let, const and var~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
