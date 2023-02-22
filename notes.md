@@ -9,3 +9,6 @@ Javascript is a high-level object-oriented, multi-paradigm programming lang
 - JS can also be used in backend apps through node.js
 
 ### 009 Linking a JavaScript File
+
+- Showed how to console.log
+- Showed how to connect a javascript file to the index
