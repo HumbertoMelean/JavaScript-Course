@@ -59,3 +59,16 @@ JS has Dynamic typing
 JS runs top to bottom
 
 ### 013 let, const and var
+
+- 'var' is not used anymore. Can be seen in legacy code
+  - Has a different scope than let
+- 'let' is used to declare variables
+  - When the variables is reassigned the variables has been 'mutated'
+- 'const' variable cannot be reassigned
+  - An 'Immutable variable'
+  - Cannot be an empty variable
+- Best practice is to used 'const' and only use 'let' when neccessary. This helps prevent bugs from occuring.
+- If variable is declared without using 'let', 'const', nor 'var' then it will be assigned to the global object.
+  - Should not be done
+
+### 014 Basic Operators

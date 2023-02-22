@@ -45,6 +45,25 @@ console.log(typeof year);
 console.log(typeof null);
 // BUG*** shows Object as type 
 
-*/
 
 // ### 013 let, const and var~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+// birthyear = 1990
+// Cannot be re-assigned
+
+// const job;
+// Has to have a variable
+
+var job = "programmer";
+job = "teacher";
+
+lastName = "Melean";
+console.log(lastName);
+
+// ### 014 Basic Operators ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*/
