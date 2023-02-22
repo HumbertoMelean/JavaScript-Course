@@ -1,3 +1,6 @@
+/*
+// ### 010 Values and Variables
+
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
@@ -18,3 +21,28 @@ let job1 = "programmer";
 let job2 = "teacher";
 
 console.log(myFirstJob);
+
+// ### 012 Data Types~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+let javascriptIsFun = true;
+// console.log(true);
+console.log(typeof javascriptIsFun);
+console.log(typeof 23);
+console.log(typeof "Jonas");
+
+javascriptIsFun = "Yes";
+console.log(typeof javascriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
+// Both are undefined
+// Undefined is the Value and the type
+year = 1991;
+console.log(year);
+console.log(typeof year);
+
+console.log(typeof null);
+// BUG*** shows Object as type 
+
+*/

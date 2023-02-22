@@ -28,3 +28,32 @@ Naming conventions
   - Variable can only have letter, numbers, underscore, dollar sign
   - There are also reserved keywords
   - Variables should be descriptive
+
+### 012 Data Types
+
+- Values are either Objects or Primitives
+- There are 7 Primitive types
+  1. Number
+  - Floating point numbers
+  - Decimals or integers
+  2. String
+  - Sequence of characters / text
+  3. Boolean
+  - True or False
+  - Used for making decisions
+  4. Undefined
+  - Undeclared variable
+  5. Null
+  - Empty Value
+  - Different than undefined
+  6. Symbol
+  - Values that are unique
+  7. BigInt
+  - For large numbers
+
+JS has Dynamic typing
+
+- Don't have to manually define the data type
+- Type is determined automatically
+
+JS runs top to bottom

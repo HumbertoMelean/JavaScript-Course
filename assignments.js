@@ -1,3 +1,4 @@
+/*
 console.log("Assignment File");
 
 // LECTURE: Values and Variables
@@ -24,3 +25,4 @@ let population = "350,000,000";
 // LECTURE: The switch Statement
 
 // LECTURE: The Conditional (Ternary) Operator
+*/
