@@ -138,7 +138,6 @@ console.log(`String with
 multiple
 lines`);
 
-*/
 // ### 018 Taking Decisions_ if _ else Statements~~~~~~~~~~~~~~
 
 const age = 15;
@@ -159,3 +158,4 @@ if (birthYear <= 2000) {
 }
 
 console.log(century);
+*/

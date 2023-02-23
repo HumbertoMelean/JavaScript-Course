@@ -1,5 +1,7 @@
 // JavaScript Fundamentals – Part 1
 /*
+ */
+
 // Coding Challenge #1
 
 const markOneWeight = 78;
@@ -12,25 +14,34 @@ const markTwoHeight = 1.88;
 const johnTwoWeight = 85;
 const johnTwoheight = 1.76;
 
-let markBMI, johnBMI;
+let markBMIone, johnBMIone, markBMItwo, johnBMItwo;
 
-markBMI = markOneWeight / markOneHeight ** 2;
-johnBMI = johnOneWeight / johnOneheight ** 2;
+markBMIone = markOneWeight / markOneHeight ** 2;
+johnBMIone = johnOneWeight / johnOneheight ** 2;
 
-console.log(markBMI, johnBMI);
+console.log(markBMIone, johnBMIone);
 
-let markHigherBMI = markBMI > johnBMI;
-console.log(markHigherBMI);
+const markHigherBMIone = markBMIone > johnBMIone;
+console.log(markHigherBMIone);
 
-markBMI = markTwoWeight / markTwoHeight ** 2;
-johnBMI = johnTwoWeight / johnTwoheight ** 2;
+markBMItwo = markTwoWeight / markTwoHeight ** 2;
+johnBMItwo = johnTwoWeight / johnTwoheight ** 2;
 
-console.log(markBMI, johnBMI);
+console.log(markBMItwo, johnBMItwo);
 
-markHigherBMI = markBMI > johnBMI;
-console.log(markHigherBMI);
+const markHigherBMItwo = markBMItwo > johnBMItwo;
+console.log(markHigherBMItwo);
 
-*/
 // Coding Challenge #2
+if (markHigherBMIone) {
+  console.log(`Mark's BMI ${markBMIone} is higher than John's!`);
+} else {
+  console.log(`John's BMI ${johnBMIone} is higher than Mark's!`);
+}
+if (markHigherBMItwo) {
+  console.log(`Mark's BMI ${markBMIone} is higher than John's!`);
+} else {
+  console.log(`John's BMI ${johnBMItwo} is higher than Mark's!`);
+}
 // Coding Challenge #3
 // Coding Challenge #4
