@@ -48,9 +48,12 @@ const description =
   " people speak " +
   language;
 console.log(description);
- */
 
 // LECTURE: Strings and Template Literals
+const description2 = `${country} is in ${continent}, and its ${population} people speak ${language}
+template literal`;
+console.log(description2);
+ */
 
 // LECTURE: Taking Decisions: if / else Statements
 
