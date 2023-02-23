@@ -99,3 +99,12 @@ It works generally like standard math operators
 - Template literals help a lot with multi lines strings
 
 ### 018 Taking Decisions* if * else Statements
+
+- This is called a 'Controlled Structure'
+  - Allows code to run non-linearly
+
+if(condition/boolean value) {
+run code in here
+} else/when boolean value is false {
+run this code instead
+}
