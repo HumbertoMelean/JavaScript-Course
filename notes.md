@@ -72,3 +72,14 @@ JS runs top to bottom
   - Should not be done
 
 ### 014 Basic Operators
+
+- Can do standard math operation + - / \*
+- Can also do exponents \*\*
+  - ex: 2 \*\* 3 = 8
+- '+' addition operator can also concatenate strings.
+- += -= /= \*=
+  - x = x '+' value
+- ++ --
+  - Add 1 or substract 1
+- Comparison operators
+  - < <= > >=
