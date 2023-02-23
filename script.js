@@ -322,7 +322,6 @@ if (day === "monday") {
 }
 
 // ### 027 Statements and Expressions~~~~~~~~~~~~~~~
-*/
 // Expressions
 3 + 4;
 1991;
@@ -335,9 +334,10 @@ if (23 > 10) {
 
 console.log(`I'm ${2037 - 1991} years old`);
 // console.log(`I'm ${if (23>10)} years old`); cannot accept statemets
+*/
 
-// 028 The Conditional (Ternary) Operator~~~~~~~~~~~~~~~~~~~~
-// const age = 23;
-// age >= 18
-//   ? console.log(`I like to drink wine.`)
-//   : console.log(`I like to drink water`);
+028 The Conditional (Ternary) Operator~~~~~~~~~~~~~~~~~~~~
+const age = 23;
+age >= 18
+  ? console.log(`I like to drink wine.`)
+  : console.log(`I like to drink water`);
