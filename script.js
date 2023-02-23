@@ -110,7 +110,34 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 
-*/
 // ### 016 Coding Challenge #1
 
 // ### 017 Strings and Template Literals~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+const firstName = "Beto";
+const job = "teacher";
+const birthYear = 1991;
+const year = 2037;
+
+const beto =
+  "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+console.log(beto);
+
+const betoNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(betoNew);
+
+console.log(`Just a regular string...`);
+
+console.log(
+  "String with \n\
+multiple \n\
+lines"
+);
+
+console.log(`String with
+multiple
+lines`);
+
+// ### 018 Taking Decisions_ if _ else Statements~~~~~~~~~~~~~~
+
+*/

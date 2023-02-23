@@ -93,3 +93,9 @@ It works generally like standard math operators
 ### 016 Coding Challenge #1
 
 ### 017 Strings and Template Literals
+
+- Template literal can help avoid single quote or double quote bugs/errors
+- Can use template literal for all strings
+- Template literals help a lot with multi lines strings
+
+### 018 Taking Decisions* if * else Statements
