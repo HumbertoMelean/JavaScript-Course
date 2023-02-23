@@ -111,3 +111,6 @@ const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
 
 */
+// ### 016 Coding Challenge #1
+
+// ### 017 Strings and Template Literals~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -89,3 +89,7 @@ JS runs top to bottom
 MDN link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
 It works generally like standard math operators
+
+### 016 Coding Challenge #1
+
+### 017 Strings and Template Literals
