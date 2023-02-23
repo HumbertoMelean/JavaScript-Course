@@ -34,3 +34,11 @@
     }
 
 ### 027 Statements and Expressions
+
+Expression is a piece of code that creates a value
+
+Statement is a larger piece of code that does not necessarily create a value on its own. It declares already created values.
+
+In template literals you can only insert STATEMENTS not EXPRESSIONS
+
+### 028 The Conditional (Ternary) Operator
