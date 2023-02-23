@@ -1,5 +1,4 @@
 /*
- */
 
 console.log("Assignment File");
 
@@ -93,5 +92,6 @@ if (language === "English" && population < 50000000 && !isIsland) {
   console.log(`${country} does not meet your criteria`);
 }
 // LECTURE: The switch Statement
+ */
 
 // LECTURE: The Conditional (Ternary) Operator
