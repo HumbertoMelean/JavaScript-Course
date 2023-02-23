@@ -79,4 +79,22 @@ if (dolphinsAverageScore > koalasAverageScore && dolphinsAverageScore >= 100) {
 }
 
 // Coding Challenge #4
+
+const bill = 430;
+
+if (bill >= 50 && bill < 300) {
+  tip = bill * 0.15;
+  console.log(
+    `The bill was $${bill}, the tip was ${tip} and the total value ${
+      tip + bill
+    }.`
+  );
+} else {
+  tip = bill * 0.2;
+  console.log(
+    `The bill was $${bill}, the tip was ${tip} and the total value ${
+      tip + bill
+    }.`
+  );
+}
  */
