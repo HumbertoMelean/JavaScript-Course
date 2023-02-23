@@ -1,6 +1,5 @@
 // JavaScript Fundamentals – Part 1
 /*
- */
 
 // Coding Challenge #1
 
@@ -44,4 +43,6 @@ if (markHigherBMItwo) {
   console.log(`John's BMI ${johnBMItwo} is higher than Mark's!`);
 }
 // Coding Challenge #3
+ */
+
 // Coding Challenge #4

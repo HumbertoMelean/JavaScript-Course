@@ -53,11 +53,17 @@ console.log(description);
 const description2 = `${country} is in ${continent}, and its ${population} people speak ${language}
 template literal`;
 console.log(description2);
- */
 
 // LECTURE: Taking Decisions: if / else Statements
-
+if (population > 33000000) {
+  console.log(`${country}'s population is above average`);
+} else {
+  console.log(
+    `${country}'s populations is ${33000000 - population} below average`
+  );
+}
 // LECTURE: Type Conversion and Coercion
+ */
 
 // LECTURE: Equality Operators: == vs. ===
 
