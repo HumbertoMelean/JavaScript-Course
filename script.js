@@ -334,7 +334,6 @@ if (23 > 10) {
 
 console.log(`I'm ${2037 - 1991} years old`);
 // console.log(`I'm ${if (23>10)} years old`); cannot accept statemets
-*/
 
 // 028 The Conditional (Ternary) Operator~~~~~~~~~~~~~~~~~~~~
 
@@ -355,3 +354,9 @@ if (age >= 18) {
 console.log(drink2);
 
 console.log(`I like to drink ${age >= 18 ? "Wine" : "Water"}`); // inserted a statement to the template literal
+
+*/
+
+// ### 029 Coding Challenge #4~~~~~~~~~~~~~~~~~~~
+
+// ### 030 JavaScript Releases_ ES5, ES6+ and ESNext~~~~~~~~~~~~
