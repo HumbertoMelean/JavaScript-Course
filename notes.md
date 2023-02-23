@@ -163,3 +163,9 @@ There are 3 types
 - A NOT B
 
 ### 024 Logical Operators
+
+&& or || or !variable
+
+These operators can be used to create logical conditions so that programs can run.
+
+### 025 Coding Challenge #3

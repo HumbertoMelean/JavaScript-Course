@@ -18,4 +18,8 @@
 
 - != !==
   - does not equal - loose & strict
+- &&
+  - both true
+- ||
+  - OR - one is true
 -
