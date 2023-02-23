@@ -83,3 +83,5 @@ JS runs top to bottom
   - Add 1 or substract 1
 - Comparison operators
   - < <= > >=
+
+### 015 Operator Precedence

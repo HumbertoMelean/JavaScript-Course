@@ -6,7 +6,7 @@ console.log("Assignment File");
 
 // let country = "United States";
 // let continent = "North American";
-let population = "350,000,000";
+let population = 350000000;
 
 // LECTURE: Data Types
 
@@ -15,7 +15,6 @@ let language;
 
 console.log(isIsland);
 console.log(population);
-console.log(country);
 console.log(language);
 // Result
 
@@ -35,6 +34,20 @@ const continent = "North America";
 // Uncaught ReferenceError: Cannot access 'country' before initialization
 
 // LECTURE: Basic Operators
+
+console.log(population / 2);
+console.log(population++);
+console.log(6000000 < population);
+console.log(33000000 < population);
+const description =
+  country +
+  " is in " +
+  continent +
+  ", and its " +
+  population +
+  " people speak " +
+  language;
+console.log(description);
  */
 
 // LECTURE: Strings and Template Literals
