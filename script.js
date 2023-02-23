@@ -190,3 +190,38 @@ console.log(n);
 
 */
 // ### 021 Truthy and Falsy Values~~~~~~~~~~~~~~~~~~~~
+
+console.log(Boolean(0));
+// false
+console.log(Boolean(undefined));
+// false
+console.log(Boolean("jonas"));
+// true
+console.log(Boolean({}));
+// true
+console.log(Boolean(""));
+// false
+
+const money = 0;
+if (money) {
+  console.log(`Don't spend it all`);
+} else {
+  console.log(`Get a job`);
+}
+// 0 is a falsy value
+
+const money1 = 1;
+if (money1) {
+  console.log(`Don't spend it all`);
+} else {
+  console.log(`Get a job`);
+}
+// 1 is a truthy value
+
+let height;
+if (height) {
+  console.log(`Yay, height is defined`);
+} else {
+  console.log(`Height is not defined aka UNDEFINED`);
+}
+// height has a falsy value

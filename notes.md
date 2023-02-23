@@ -122,3 +122,18 @@ Coercing addition and substraction do the opposite
 **should be mindful with type coercion because it may introduce bugs into the program**
 
 ### 021 Truthy and Falsy Values
+
+There are 5 falsy values
+
+- 0
+- ''
+- undefined
+- null
+- NaN
+
+Javascript does type coercion to booleans?
+
+1. Logical Operators
+2. Conditional Statements
+
+### 022 Equality Operators\_ == vs. ===
