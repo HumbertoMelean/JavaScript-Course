@@ -42,3 +42,13 @@ Statement is a larger piece of code that does not necessarily create a value on 
 In template literals you can only insert STATEMENTS not EXPRESSIONS
 
 ### 028 The Conditional (Ternary) Operator
+
+**Ternary Operators are STATEMENTS**
+
+- can be used inside template literals
+
+The ternary operator has 3 parts
+
+1. The condition
+2. The if
+3. The else
