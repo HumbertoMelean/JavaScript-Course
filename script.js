@@ -248,3 +248,6 @@ if (favorite !== 23) console.log(`Why not 23?`);
 
 */
 // ### 023 Boolean Logic~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ONLY NOTES
+
+// ### 024 Logical Operators~~~~~~~~~~~~~~~~~~~~~~~~~

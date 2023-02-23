@@ -145,3 +145,21 @@ Javascript does type coercion to booleans?
     -Always default to triple ===
 
 ### 023 Boolean Logic
+
+Uses true or false operators to solve problems - simple to complex
+
+There are 3 types
+
+1. AND
+
+- A AND B
+
+2. OR
+
+- A OR B
+
+3. NOT
+
+- A NOT B
+
+### 024 Logical Operators
