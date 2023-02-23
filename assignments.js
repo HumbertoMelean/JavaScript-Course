@@ -115,4 +115,9 @@ switch (language1) {
     console.log(`Great language too`);
 }
 // LECTURE: The Conditional (Ternary) Operator
+
+const greaterPop =
+  population > 33000000
+    ? console.log(`${country} population is above avg`)
+    : console.log(`${country} population is below avg`);
  */
