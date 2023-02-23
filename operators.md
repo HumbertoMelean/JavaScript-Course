@@ -3,4 +3,6 @@
 - console.log
 - let
 - typeof
+- Number()
+- String()
 -

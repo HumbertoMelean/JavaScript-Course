@@ -108,3 +108,17 @@ run code in here
 } else/when boolean value is false {
 run this code instead
 }
+
+### 019 Coding Challenge #2
+
+### 020 Type Conversion and Coercion
+
+Type conversion is automatic but can done manually as well. Sometimes when done automatically, it will output unwanted results. It may end up adding/combining a number and a string.
+
+- ex: '100' + 10 = '10010'
+
+Coercing addition and substraction do the opposite
+
+**should be mindful with type coercion because it may introduce bugs into the program**
+
+### 021 Truthy and Falsy Values
