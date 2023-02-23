@@ -92,6 +92,27 @@ if (language === "English" && population < 50000000 && !isIsland) {
   console.log(`${country} does not meet your criteria`);
 }
 // LECTURE: The switch Statement
- */
 
+const language1 = "english";
+switch (language1) {
+  case "chinese":
+  case "mandarin":
+    console.log(`MOST number of native speakers!`);
+    break;
+  case "spanish":
+    console.log(`2nd place in number of native speakers`);
+    break;
+  case "english":
+    console.log(`3rd place`);
+    break;
+  case "hindi":
+    console.log(`number four`);
+    break;
+  case "arabic":
+    console.log(`5th most spoken language`);
+    break;
+  default:
+    console.log(`Great language too`);
+}
 // LECTURE: The Conditional (Ternary) Operator
+ */
