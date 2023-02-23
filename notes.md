@@ -85,3 +85,7 @@ JS runs top to bottom
   - < <= > >=
 
 ### 015 Operator Precedence
+
+MDN link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+It works generally like standard math operators
