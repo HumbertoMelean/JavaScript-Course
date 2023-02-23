@@ -137,3 +137,11 @@ Javascript does type coercion to booleans?
 2. Conditional Statements
 
 ### 022 Equality Operators\_ == vs. ===
+
+- triple === is 'strict'
+  - Does not perform type coercion
+- double == is loose
+  - Does perform type coercion
+    -Always default to triple ===
+
+### 023 Boolean Logic
