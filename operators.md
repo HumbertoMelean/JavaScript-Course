@@ -21,5 +21,16 @@
 - &&
   - both true
 - ||
+
   - OR - one is true
--
+
+  ### 026 The switch Statement
+
+- switch(variable) {
+  - case 'variable1:
+    - run this code;
+    - break
+  - case 'variable2:
+    }
+
+### 027 Statements and Expressions

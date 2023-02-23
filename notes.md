@@ -169,3 +169,5 @@ There are 3 types
 These operators can be used to create logical conditions so that programs can run.
 
 ### 025 Coding Challenge #3
+
+### 026 The switch Statement
