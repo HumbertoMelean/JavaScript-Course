@@ -208,3 +208,16 @@ History of JS
 ### 031 Section Intro
 
 ### 032 Activating Strict Mode
+
+'use strict' must be the first thing on the document
+
+- creates visible errors for wrong code that otherwise would be missed
+- has a list of reserved words
+- Another layer of preventative bug catching
+
+### 033 Functions
+
+- function is a piece of re-usable code
+- When using a function, it is called
+  - Calling/Running/Invoking
+- s
