@@ -204,3 +204,7 @@ The ternary operator has 3 parts
 ### 030 JavaScript Releases\_ ES5, ES6+ and ESNext
 
 History of JS
+
+### 031 Section Intro
+
+### 032 Activating Strict Mode
