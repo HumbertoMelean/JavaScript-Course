@@ -14,4 +14,6 @@ const canada = describeCountry("Canada", 50, "Toronto");
 const Mexico = describeCountry("Mexico", 200, "Mexico City");
 
 console.log(USA, canada, Mexico);
+
  */
+// LECTURE: Function Declarations vs. Expressions

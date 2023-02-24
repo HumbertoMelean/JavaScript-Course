@@ -223,3 +223,8 @@ History of JS
 - s
 
 ### 034 Function Declarations vs. Expressions
+
+functions are also values
+
+- function declarations can be called on before they are declared.
+- function declarations are not assigned to a variable.
