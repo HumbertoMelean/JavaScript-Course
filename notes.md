@@ -221,3 +221,5 @@ History of JS
 - When using a function, it is called
   - Calling/Running/Invoking
 - s
+
+### 034 Function Declarations vs. Expressions
