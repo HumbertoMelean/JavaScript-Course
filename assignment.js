@@ -25,4 +25,9 @@ const percentageOfWorld2 = function (population) {
   return (population / 7900000000) * 100;
 };
 console.log(percentageOfWorld1(300000000), percentageOfWorld1(300000000));
+
+// LECTURE: Arrow Functions
+
+const percentageOfWorld3 = (population) => population / 7900000000;
+console.log(percentageOfWorld3(300000000));
  */
