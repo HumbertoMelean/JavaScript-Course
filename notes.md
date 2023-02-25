@@ -228,3 +228,8 @@ functions are also values
 
 - function declarations can be called on before they are declared.
 - function declarations are not assigned to a variable.
+
+### 035 Arrow Functions
+
+- Arrow function is a function expression
+- Will implicitly return the result if there is only 1 line of code

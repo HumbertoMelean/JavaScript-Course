@@ -15,5 +15,14 @@ const Mexico = describeCountry("Mexico", 200, "Mexico City");
 
 console.log(USA, canada, Mexico);
 
- */
 // LECTURE: Function Declarations vs. Expressions
+
+function percentageOfWorld1(population) {
+  return (population / 7900000000) * 100;
+}
+
+const percentageOfWorld2 = function (population) {
+  return (population / 7900000000) * 100;
+};
+console.log(percentageOfWorld1(300000000), percentageOfWorld1(300000000));
+ */
