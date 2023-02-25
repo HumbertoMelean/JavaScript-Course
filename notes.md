@@ -239,3 +239,16 @@ functions are also values
 - Having functions call other functions helps keep your code dry.
 
 ### 037 Reviewing Functions
+
+1. Function delcaration
+
+- function that can be used before its declared
+
+2. Function expression
+
+- a function value stored in a variable
+
+3. Arrow function
+
+- Optimal for 1 line functions
+- no 'this' keyword

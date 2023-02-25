@@ -5,4 +5,5 @@
 
 - If in a 'if' statement there is no 'else' statement then brackets are not needed.
 
+- Using the return keyword exits the function immediately
 -
