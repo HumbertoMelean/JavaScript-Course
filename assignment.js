@@ -1,5 +1,6 @@
 "use strict";
 /*
+
 // JavaScript Fundamentals – Part 2
 // LECTURE: Functions
 
@@ -30,4 +31,15 @@ console.log(percentageOfWorld1(300000000), percentageOfWorld1(300000000));
 
 const percentageOfWorld3 = (population) => population / 7900000000;
 console.log(percentageOfWorld3(300000000));
+
+// LECTURE: Functions Calling Other Functions
+
+const describePop = (country, population) =>
+  `${country} has ${population} people, which is about ${percentageOfWorld3(
+    population
+  )}% of the world`;
+
+console.log(describePop("US", 3300000000));
  */
+
+// ### 037 Reviewing Functions~~~~~~~~~~~~~~~~~~~~~~~~

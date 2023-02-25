@@ -233,3 +233,9 @@ functions are also values
 
 - Arrow function is a function expression
 - Will implicitly return the result if there is only 1 line of code
+
+### 036 Functions Calling Other Functions
+
+- Having functions call other functions helps keep your code dry.
+
+### 037 Reviewing Functions
