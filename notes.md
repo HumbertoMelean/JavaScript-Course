@@ -260,4 +260,9 @@ functions are also values
 Arrays are a data structure
 
 - Arrays give the ability to store information to be easily accessible later
+- Only primative values are immutable
+  - Arrays are not immutable
+  - Can replace specific values within an array. Cannot change the entire array.
 -
+
+### 040 Basic Array Operations (Methods)

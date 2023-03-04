@@ -40,6 +40,10 @@ const describePop = (country, population) =>
   )}% of the world`;
 
 console.log(describePop("US", 3300000000));
- */
 
-// ### 037 Reviewing Functions~~~~~~~~~~~~~~~~~~~~~~~~
+// LECTURE: Introduction to Arrays
+
+const population = [10, 100, 1000, 10000];
+population.length === 4 ? console.log(true) : console.log(false);
+
+ */
