@@ -158,6 +158,34 @@ console.log(age1, age2, age3);
 
 const ages = [age1, age2, age3];
 console.log(ages);
-*/
 
 // ### 040 Basic Array Operations (Methods)~~~~~~~~~~
+
+// Add Elements
+const friends = ["Michael", "Steven", "Peter"];
+const newLength = friends.push("Jay");
+console.log(friends);
+console.log(newLength);
+
+friends.unshift("John");
+console.log(friends);
+
+// Remove Elements
+friends.pop();
+const popped = friends.pop();
+console.log(popped);
+console.log(friends);
+
+friends.shift();
+console.log(friends);
+
+// Returns index
+console.log(friends.indexOf("Steven"));
+console.log(friends.indexOf("Bob"));
+
+// Returns if True/ False
+// Checks if True in strict equality - No type coercion
+console.log(friends.includes("Steven"));
+console.log(friends.includes("Bob"));
+
+*/

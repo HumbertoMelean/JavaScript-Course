@@ -25,4 +25,6 @@
   - OR - one is true
 
 - return
--
+
+- indexof()
+- includes()

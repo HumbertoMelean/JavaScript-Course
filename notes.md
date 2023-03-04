@@ -266,3 +266,6 @@ Arrays are a data structure
 -
 
 ### 040 Basic Array Operations (Methods)
+
+- indexof returns index
+- includes returns true or false
