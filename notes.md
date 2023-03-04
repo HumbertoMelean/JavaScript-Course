@@ -252,3 +252,12 @@ functions are also values
 
 - Optimal for 1 line functions
 - no 'this' keyword
+
+### Coding Challenge #1
+
+### 039 Introduction to Arrays
+
+Arrays are a data structure
+
+- Arrays give the ability to store information to be easily accessible later
+-

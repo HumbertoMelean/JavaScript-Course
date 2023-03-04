@@ -93,6 +93,8 @@ const calcAge = function (birthYear) {
   return 2037 - birthYear;
 };
 
+// ### 037 Reviewing Functions~~~~~~~~~~~~~~~~~~~~~~~~
+
 const yearsUntilRetirement = function (birthYear, firstName) {
   const age = calcAge(birthYear);
   const retirement = 65 - age;
@@ -110,3 +112,13 @@ console.log(yearsUntilRetirement(1991, "Beto"));
 console.log(yearsUntilRetirement(1970, "Mike"));
 
    */
+
+// ### Coding Challenge #1~~~~~~~~~~~~~~~~~~~~~~
+
+// ### 039 Introduction to Arrays~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+const friend1 = "Michael";
+const friend2 = "Steven";
+const friend3 = "Peter";
+
+const friends = ["Michael", "Steven", "Peter"];
