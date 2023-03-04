@@ -44,3 +44,26 @@ avgKoala = calcAverage(koalaGameOne, koalaGameTwo, koalaGameThree);
 checkWinner(avgDolphin, avgKoala);
 
 */
+
+// Coding Challenge #2
+
+const bills = [125, 555, 44];
+const tips = [];
+const totals = [];
+
+const calcTip = function (bill) {
+  if (bill >= 50 && bill <= 300) {
+    let tip = bill * 0.15;
+    tips.push(tip);
+    totals.push(bill + tip);
+  } else {
+    let tip = bill * 0.2;
+    tips.push(tip);
+    totals.push(bill + tip);
+  }
+};
+
+calcTip(bills[0]);
+calcTip(bills[1]);
+calcTip(bills[2]);
+console.log(bills, tips, totals);
