@@ -201,4 +201,4 @@ const jonas = {
 
 */
 
-// ### 042 Introduction to Objects~~~~~~~~~~~~~~
+// ### 043 Dot vs. Bracket Notation~~~~~~~~~~~~~~
