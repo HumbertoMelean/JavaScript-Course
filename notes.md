@@ -269,3 +269,17 @@ Arrays are a data structure
 
 - indexof returns index
 - includes returns true or false
+- retrieve value by knowing the index
+
+### Coding Challenge #2
+
+### 042 Introduction to Objects
+
+object
+property: value
+
+- objects used to group together different variable that belong together.
+- order does not matter when retrieving value
+-
+
+### 043 Dot vs. Bracket Notation

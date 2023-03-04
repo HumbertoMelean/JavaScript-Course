@@ -188,4 +188,17 @@ console.log(friends.indexOf("Bob"));
 console.log(friends.includes("Steven"));
 console.log(friends.includes("Bob"));
 
+// ### 042 Introduction to Objects~~~~~~~~~~~~~~
+
+// Object literal syntax
+const jonas = {
+  firstName: "Beto",
+  lastName: "Melean",
+  age: 2037 - 1991,
+  job: "teacher",
+  friends: ["Michael", "Peter", "Steven"],
+};
+
 */
+
+// ### 042 Introduction to Objects~~~~~~~~~~~~~~
