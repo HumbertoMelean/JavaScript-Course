@@ -199,6 +199,60 @@ const jonas = {
   friends: ["Michael", "Peter", "Steven"],
 };
 
-*/
-
 // ### 043 Dot vs. Bracket Notation~~~~~~~~~~~~~~
+
+console.log(jonas);
+
+console.log(jonas.lastName);
+console.log(jonas[`lastName`]);
+
+const nameKey = "Name";
+console.log(jonas[`first${nameKey}`]);
+console.log(jonas[`last${nameKey}`]);
+
+console.log(
+  `${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`
+);
+
+
+// ### 044 Object Methods~~~~~~~~~~~~~~~~~~~
+
+const jonas = {
+  firstName: "Beto",
+  lastName: "Melean",
+  birthYear: 1991,
+  job: "teacher",
+  friends: ["Michael", "Peter", "Steven"],
+  hasDriversLicense: true,
+
+  // calcAge is not a variable but an object property
+  // calcAge: function (birthYear) {
+  //   return 2037 - birthYear;
+  // },
+
+  // calcAge: function () {
+  //   // console.log(this);
+  //   return 2037 - this.birthYear;
+  // },
+
+  calcAge: function () {
+    this.age = 2037 - this.birthYear;
+    return this.age;
+  },
+
+  getSummary: function () {
+    return `${this.firstName} is a ${this.age}-year old ${
+      this.job
+    }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's license.`;
+  },
+};
+
+console.log(jonas.calcAge());
+console.log(jonas.age);
+console.log(jonas);
+// console.log(jonas.calcAge(this.birthYear));
+
+console.log(jonas.getSummary());
+
+*/
+// ### 045 Coding Challenge #3~~~~~~~~~~~~~~~~~~~~~~

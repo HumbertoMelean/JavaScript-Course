@@ -68,3 +68,5 @@ calcTip(bills[2]);
 console.log(bills, tips, totals);
 
 */
+
+// Coding Challenge #3

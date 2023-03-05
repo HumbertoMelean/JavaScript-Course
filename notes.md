@@ -283,3 +283,11 @@ property: value
 -
 
 ### 043 Dot vs. Bracket Notation
+
+- '.' the dot is called an operator
+- Dot notation works on objects not arrays
+- Bracket Notation can use an expression
+
+### 044 Object Methods
+
+### 045 Coding Challenge #3
