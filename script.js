@@ -254,7 +254,6 @@ console.log(jonas);
 
 console.log(jonas.getSummary());
 
-*/
 // ### 045 Coding Challenge #3~~~~~~~~~~~~~~~~~~~~~~
 
 // ### 046 Iteration_ The for Loop~~~~~~~~~~~~~~~~~~~~~~
@@ -273,3 +272,73 @@ console.log(jonas.getSummary());
 for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
 }
+
+// ### 047 Looping Arrays, Breaking and Continuing~~~~~~~~~~~~~
+
+const jonas = [
+  "Beto",
+  "Melean",
+  2037 - 1991,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+
+const types = [];
+
+for (let i = 0; i < jonas.length; i++) {
+  // Reading from jonas array
+  console.log(jonas[i], typeof jonas[i]);
+
+  // Filling types array
+  // types[i] = typeof jonas[i];
+
+  types.push(typeof jonas[i]);
+}
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2037 - years[i]);
+}
+console.log(ages);
+
+// continue adn break
+console.log(`Only Strings_____________`);
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] !== "string") continue;
+  console.log(jonas[i], typeof jonas[i]);
+}
+
+console.log(`Only BREAK WITH NUMBER_____________`);
+for (let i = 0; i < jonas.length; i++) {
+  if (typeof jonas[i] === "number") break;
+  console.log(jonas[i], typeof jonas[i]);
+}
+
+// ### 048 Looping Backwards and Loops in Loops~~~~~~~~~~
+
+const jonas = [
+  "Beto",
+  "Melean",
+  2037 - 1991,
+  "teacher",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+
+for (let i = jonas.length - 1; i >= 0; i--) {
+  console.log(i, jonas[i]);
+}
+
+for (let exercise = 1; exercise < 4; exercise++) {
+  console.log(`------ Starting exercise ${exercise}`);
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`------- Starting rep ${rep}`);
+  }
+}
+*/
+
+// ### 049 The while Loop~~~~~~~~~~~~~~~~~~

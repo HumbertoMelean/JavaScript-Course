@@ -303,3 +303,18 @@ Syntax
 3. Increasing/decrease the counter value
 
 ### 047 Looping Arrays, Breaking and Continuing
+
+Most for loops conditions looks similar to this
+'(let i = 0; i < (xxxx).length; i++)'
+
+- _continue_
+  - Filters out unwanted actions from happening by creating conditions to 'continue' the function.
+  - Only applies to current interations of the loop
+- _break_
+  - terminates the entire loop
+
+### 048 Looping Backwards and Loops in Loops
+
+Can create a for loop within another for loop
+
+### 049 The while Loop
