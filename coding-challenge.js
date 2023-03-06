@@ -105,4 +105,27 @@ if (mark.bmi > john.bmi) {
   );
 }
 
+// Coding Challenge #4
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+
+const calcTip = function (bill) {
+  if (bill >= 50 && bill <= 300) {
+    let tip = bill * 0.15;
+    tips.push(tip);
+    totals.push(bill + tip);
+  } else {
+    let tip = bill * 0.2;
+    tips.push(tip);
+    totals.push(bill + tip);
+  }
+};
+
+for (let i = 0; i < bills.length; i++) {
+  calcTip(bills[i]);
+}
+console.log(bills, tips, totals);
+
 */
