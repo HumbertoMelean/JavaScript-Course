@@ -67,7 +67,6 @@ calcTip(bills[1]);
 calcTip(bills[2]);
 console.log(bills, tips, totals);
 
-*/
 
 // Coding Challenge #3
 
@@ -105,3 +104,5 @@ if (mark.bmi > john.bmi) {
     `${john.fullName} BMI(${john.bmi}) is higher than ${mark.fullName}'s BMI(${mark.bmi})`
   );
 }
+
+*/

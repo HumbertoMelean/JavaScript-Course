@@ -293,3 +293,13 @@ property: value
 ### 045 Coding Challenge #3
 
 ### 046 Iteration\_ The for Loop
+
+- Loops help automate repetitive tasks
+
+Syntax
+
+1. Starting condition
+2. Logical condition that is evaluated before each iteration of the loop
+3. Increasing/decrease the counter value
+
+### 047 Looping Arrays, Breaking and Continuing
