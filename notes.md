@@ -318,3 +318,6 @@ Most for loops conditions looks similar to this
 Can create a for loop within another for loop
 
 ### 049 The while Loop
+
+- While loop doesn't need a counter
+- Only needs a logical condition
