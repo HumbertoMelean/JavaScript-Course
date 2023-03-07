@@ -44,7 +44,7 @@ avgKoala = calcAverage(koalaGameOne, koalaGameTwo, koalaGameThree);
 checkWinner(avgDolphin, avgKoala);
 
 
-// Coding Challenge #2
+// Coding Challenge #2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 const bills = [125, 555, 44];
 const tips = [];
@@ -68,7 +68,7 @@ calcTip(bills[2]);
 console.log(bills, tips, totals);
 
 
-// Coding Challenge #3
+// Coding Challenge #3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 const mark = {
   fullName: "Mark Miller",
@@ -105,7 +105,7 @@ if (mark.bmi > john.bmi) {
   );
 }
 
-// Coding Challenge #4
+// Coding Challenge #4~~~~~~~~~~~~~~~~~~~~~~~~~
 
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips = [];
@@ -127,5 +127,17 @@ for (let i = 0; i < bills.length; i++) {
   calcTip(bills[i]);
 }
 console.log(bills, tips, totals);
+
+// Coding Challenge #1 Developer Skills & Editor Setup~~~~~~~~~~~~~~~~~~~~~
+
+const arr = [17, 21, 23];
+
+const printForcast = function (arr, i) {
+  console.log(`${arr}C in ${i + 1} day`);
+};
+
+for (let i = 0; i < arr.length; i++) {
+  printForcast(arr[i], i);
+}
 
 */
