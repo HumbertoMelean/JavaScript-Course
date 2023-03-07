@@ -321,3 +321,25 @@ Can create a for loop within another for loop
 
 - While loop doesn't need a counter
 - Only needs a logical condition
+
+### 070 PROJECT #1\_ Guess My Number!
+
+- EX: .textContent
+  - These are called 'dot' operators
+  - They run left to right
+  - Can have multiple
+
+### 071 What's the DOM and DOM Manipulation
+
+- DOM
+  - Document Object Model
+  - Allows HTML and CSS to be accessed with JS
+
+### 072 Selecting and Manipulating Elements
+
+.textContent is used to assign text value
+.value is used to assign number values
+
+### 073 Handling Click Events
+
+### 074 Implementing the Game Logic

@@ -28,3 +28,5 @@
 
 - indexof()
 - includes()
+
+.textContent
