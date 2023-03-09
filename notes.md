@@ -343,3 +343,56 @@ Can create a for loop within another for loop
 ### 073 Handling Click Events
 
 ### 074 Implementing the Game Logic
+
+### 089 An High-Level Overview of JavaScript
+
+Javascript is:
+
+- High-Level
+  - Do not have to worry about every detail of how the programs runs
+- Interpreted or just-in-time compiled
+  - does not compile prior to running
+- Multi-paradigm
+  - flexible in the way the code can be written
+    - Procedural
+    - OOP
+    - Functional programming
+- Prototype-based object-oriented
+  - almost everything is an object
+- First-class functions
+  - functions are treated as normal variables
+  - functions can be passed on to other functions
+- Dynamically typed
+  - don't have to assign the type for every variable
+- Single-threaded
+  - Only runs one thing at a time
+- Non-blocking event loop
+  - Takes long running tasks and executes them in the background.
+
+### 090 The JavaScript Engine and Runtime
+
+Compilation vs Interpretation
+
+- Compilation
+  - The entire code is converted into machine code.
+- Interpretation
+  - Code is converted to machine code when it runs
+
+Javascript used to be fully interpreted. Now its time fully true anymore. Parts use compilation and other parts are interpreted
+
+- This is called Just-In-Time
+
+1. JS first parses the code that it will compile
+2. Compilation begins
+3. The code then executes
+
+- Happens in the 'Call Stack'
+
+4. Then the compiled code is optimized
+
+### 091 Execution Contexts and The Call Stack
+
+- Global execution context
+  - Top level code
+    - The function name but not the function instructions
+-
