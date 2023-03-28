@@ -396,3 +396,44 @@ Javascript used to be fully interpreted. Now its time fully true anymore. Parts 
   - Top level code
     - The function name but not the function instructions
 -
+
+### 103 Destructuring Arrays
+
+- destructuring is a breaking a complex data structure down to a simpler one
+
+Left side of the equal sign signifies destructuring
+
+### 104 Destructuring Objects
+
+restaurant.orderDelivery({
+time: '22:30',
+address: 'Via del Sole, 21',
+mainIndex: 2,
+starterIndex: 2,
+});
+
+In this ^^^^ time, address, etc.. must be identical to the object to be called on.
+
+### 105 The Spread Operator (...)
+
+Spread operators work on itterables
+
+- arrays, strings, maps, sets
+- Not Objects
+
+### 106 Rest Pattern and Parameters
+
+- Both look the same but have different functions
+- Rest Parameter used where variable names are
+- rest Parameter groups up remaining variables into a single array
+
+### 107 Short Circuiting (&& and \_\_)
+
+Works with falsy values
+
+### 108 The Nullish Coalescing Operator (\_\_)
+
+Works with Nullish values
+'Null' Or 'Undefined' - 0 and '' (empty string)
+
+### 109 Logical Assignment Operators
