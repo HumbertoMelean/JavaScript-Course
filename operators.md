@@ -30,3 +30,5 @@
 - includes()
 
 .textContent
+
+.insertAdjacentHTML
